@@ -1,0 +1,48 @@
+<html>
+    <head>
+         <title>Registration Form</title>
+    </head>
+      <body>
+           <form action= "home.html" >
+           Enter Your Name : <input type ="text" placeholder="Your Name"/> <br> <br>
+           Enter Your Father's Name : <input type ="text" placeholder="Your Father's Name"/> <br> <br>
+           Enter Your Last Name  :<input type ="text"  placeholder="Your last Name" /> <br> <br>
+           Enter your E-mail id : <input type ="email" name="user id" placeholder= "Email-id"/> <br> <br>
+           Enter your Mobile number : <input type="tel" name="contactno" pattern="[0-9]{10}"/> <br> <br>
+           Your Date of Birth <input type = "date" /> <br> <br>
+          Gender <br>
+                 Male <input type= "radio" value="m" name="gender"/> <br>
+                 Female<input type= "radio" value="f" name="gender"/> <br><br>
+           Nationality <input type= "text" list= "country" name="autocomplete"/> 
+                       <datalist id= "country">
+                        <option>India</option>
+                        <option>Thailand</option>
+                        <option>China</option>
+                        <option>Russia</option>
+                        <option>pakisthan</option>
+                        <option>Afganishthan</option>
+                        <option>south korea</option>
+                       </datalist> <br><br>
+             Home Address<br><br>
+                    <input type "text" placeholder="Street Address"/> <br> <br>
+                    <input type "text" placeholder="City"/><br><br> 
+            Your Subject
+
+                       <select> 
+                        <option>Science</option>
+                        <option>Maths</option>
+                        <option>Bio</option>
+                        <option>Arts</option>
+                        <option>Commerce</option>
+                        <option>Agriculture</option>
+                       </select> <br><br>
+         Your Marks in previous class <input type= "number" min=0 max=100 /><br><br>
+        Upload Your Marksheet (Pdf) <input type="file" name= "pdf" /> <br><br>
+          Write about yourself <br><br>
+                              <textarea placeholder="About yourself" rows=10 cols=70 ></textarea><br> <br>
+          
+       
+       <input type= "submit" value="submit"/> <br> <br> <input type= "reset"/>       
+      </form>
+      </body>
+</html>
