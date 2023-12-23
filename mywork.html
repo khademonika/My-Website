@@ -1,0 +1,182 @@
+<html>
+      <head>
+            <title>my work</title>
+                        <style>
+                              body{
+                                  padding:0;
+                                  margin:0;
+                                  
+                                    }
+                             #header{
+                                     height:60px;
+                                     background-color:blue;
+
+                                     }
+                                     #container{ 
+                                           
+                                            display:flex;
+                                     background-color:grey;
+
+                                      }
+                            #sidebar{
+                                      background-color:purple;
+                                      width:30%;
+                                      height:1000px;
+                                      
+                                     }
+                           #viewbar{
+                                    width:70%;
+                                   }
+
+                            #loginpage{ 
+                                       height:300px;
+                                       background-color:white;
+                                      padding-bottom:10px;
+                                       }
+                            #signuppage{
+                                         margin-top:10px;
+                                         background-color:white;
+                                       }
+                          #searchpage{
+                                    background-color:white;  
+                                     }
+                         #registrationpage{
+                                  background-color:white;  
+                                           }
+                         a{
+                              text-decoration:none;
+                               font-size:20px;
+                                color:black;
+                                display:block;
+                                padding:5px;}
+                         </style>
+         </head>
+                          
+<body>
+     
+<div id="header">
+                <h1>My portfolio</h1>
+              
+</div>
+ <div  id="container">
+     <div id="sidebar"> <a href= #loginpage >loginpage </a>
+                        <a href= #signuppage >signuppage</a>
+                        <a href= #searchpage >searchpage </a>
+                        <a href= #registrationpage>registrationpage</a>
+      </div>
+<div id="viewbar"> 
+  <div id="loginpage"><form action="" method="post">
+            <fieldset>
+            <legend>
+            Login Page 
+               </legend>
+            Enter Your E-mail : 
+            <input type="email" placeholder="Enter your E-mail" />
+            <br>
+            <br>
+           Enter Password : 
+           <input type="password" placeholder="Password" />
+            <br>
+            <br>
+           <button>Submit </button>
+          </fieldset>
+           </form>
+  </div>
+    <div id="signuppage">
+                     <form action=""  method="post">
+            <fieldset> 
+               <legend><h1> Sign up </h1> </legend> 
+           Enter Your Name :
+               <input type="text" name="usrnm" placeholder="enter your name"/>
+                <br>
+                <br>
+           Usertype :
+               <input type="text" name="usrtp" list="type"  Placeholder="select"/>
+               <datalist id="type">
+                  <option>Student</option>
+                  <option>Admin</option>
+                  <option>Faculty</option>
+                 </datalist>
+                <br>
+                <br>
+           Create your E-mail :
+              <input type= "email" name="crtem" Placeholder="create your email"/>
+              <br>
+                <br>
+           Create your Password :
+            <input type="password" name="pwd" Placeholder="Create your Password"
+                   method="post"/>
+               <br>
+                <br>
+            Confirm your Password :
+            <input type="password" name="pwd" Placeholder="Confirm your password"   />
+               <br>
+                <br>
+             <button>Submit</button>
+            </fieldset>
+          </form>
+  </div>
+                       
+      <div id="searchpage">
+                 <form action="https://google.com/search" >
+           <h1>Search page </h1>
+           <br><br>  
+           <input type="search" name="q"/>
+            <br><br>
+           <button>submit</button>
+          </form>
+       </div>   
+              <div id="registrationpage"> <h1>Registration Page</h1>
+                       <form action= "home.html" >
+                         <fieldset>
+           Enter Your Name : <input type ="text" placeholder="Your Name"/> <br> <br>
+           Enter Your Father's Name : <input type ="text" placeholder="Your Father's Name"/> <br> <br>
+           Enter Your Last Name  :<input type ="text"  placeholder="Your last Name" /> <br> <br>
+           Enter your E-mail id : <input type ="email" name="user id" placeholder= "Email-id"/> <br> <br>
+           Enter your Mobile number : <input type="tel" name="contactno" pattern="[0-9]{10}"/> <br> <br>
+           Your Date of Birth <input type = "date" /> <br> <br>
+          Gender <br>
+                 Male <input type= "radio" value="m" name="gender"/> <br>
+                 Female<input type= "radio" value="f" name="gender"/> <br><br>
+           Nationality <input type= "text" list= "country" name="autocomplete"/> 
+                       <datalist id= "country">
+                        <option>India</option>
+                        <option>Thailand</option>
+                        <option>China</option>
+                        <option>Russia</option>
+                        <option>pakisthan</option>
+                        <option>Afganishthan</option>
+                        <option>south korea</option>
+                       </datalist> <br><br>
+             Home Address<br><br>
+                    <input type "text" placeholder="Street Address"/> <br> <br>
+                    <input type "text" placeholder="City"/><br><br> 
+            Your Subject
+
+                       <select> 
+                        <option>Science</option>
+                        <option>Maths</option>
+                        <option>Bio</option>
+                        <option>Arts</option>
+                        <option>Commerce</option>
+                        <option>Agriculture</option>
+                       </select> <br><br>
+         Your Marks in previous class <input type= "number" min=0 max=100 /><br><br>
+        Upload Your Marksheet (Pdf) <input type="file" name= "pdf" /> <br><br>
+          Write about yourself <br><br>
+                              <textarea placeholder="About yourself" rows=10 cols=70 ></textarea><br> <br>
+          
+       
+       <input type= "submit" value="submit"/> <br> <br> <input type= "reset"/>       
+         </fieldset> 
+ </form>
+                 </div>  
+</div>
+
+
+
+
+
+
+</body
+</html>
